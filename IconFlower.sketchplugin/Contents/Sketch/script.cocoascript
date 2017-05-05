@@ -1,0 +1,59 @@
+
+var onRun = function(context) {
+
+//Set angle mode to degrees not radians
+
+Math.angleMode = "degrees"
+
+// c is the  most important variable
+// scaling factor for radius, controls how close or far icons get placed.
+// adjust value of c to get perfect spacing for your needs. 200 or more for larger gaps and 48 or less for smaller gaps among items.
+
+var c = 48;
+
+// Get the current selection
+
+    var selection = context.selection;
+
+
+// Set the variables
+
+    var doc = context.document;
+    var currentArtboard = doc.currentPage().currentArtboard();
+    var width = currentArtboard.frame().width();
+    var height = currentArtboard.frame().height();
+
+
+// More variables
+
+    var i = 0;
+    var n = 0;
+    var x = 0;
+    var y = 0;
+
+
+// Prepare for looping through objects in current selection
+
+    var loop = selection.objectEnumerator()
+
+
+// Loop through object and set x and y positions to form the pattern
+
+    while (item = loop.nextObject()) {
+	
+	    // 137.5 is the magic number
+
+            var a = i * 137.5;
+            var r = c * Math.sqrt(i);
+            var x = r * Math.cos(a) + width/2;
+            var y = r * Math.sin(a) + height/2;
+
+
+            item.frame().x = x;
+            item.frame().y = y;
+
+            n = n + 1;
+            i = i + 1;
+
+    }
+};

@@ -8,7 +8,7 @@
 		},
 		"identifier": "com.bohemiancoding.sketch.runscriptidentifier",
 		"description" : "Genreate phylotaxis (sunflower like) pattern",
-    "icon" : "icons/icon.png",
+    "icon" : "icon.png",
 		"script": "script.cocoascript"
 	}
 	],

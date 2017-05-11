@@ -8,7 +8,7 @@ Download the zip file and double click on the **IconFlower.sketchplugin** file
 
 or use with Sketchpacks or Runner
 
-[![Install IconFlower with Sketchpacks](http://sketchpacks-com.s3.amazonaws.com/assets/badges/sketchpacks-badge-install.png "Install PLUGIN NAME with Sketchpacks")](https://sketchpacks.com/YOUR_NAME/PLUGIN_NAME/install)
+[![Install IconFlower with Sketchpacks](http://sketchpacks-com.s3.amazonaws.com/assets/badges/sketchpacks-badge-install.png "Install IconFlower with Sketchpacks")](https://sketchpacks.com/IconFlower/install)
 
 [![](http://bit.ly/RunnerBadgeBlue)](http://bit.ly/SketchRunnerWebsite)
 

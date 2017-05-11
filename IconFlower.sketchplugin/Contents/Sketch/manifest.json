@@ -7,12 +7,14 @@
 			"run": "onRun"
 		},
 		"identifier": "com.bohemiancoding.sketch.runscriptidentifier",
+		"description" : "Genreate phylotaxis (sunflower like) pattern",
+    "icon" : "icons/icon.png",
 		"script": "script.cocoascript"
 	}
 	],
 	"identifier": "com.example.sketch.d701dfe6-8995-454b-ba89-e5f894208334",
 	"version": "1.0",
-	"description": "Arrange icons, images and shapes in Phyllotaxis ( leaf arrangement) patterns. Leaf arrangment pattern in a sunflower, for example.",
+	"description": "Arrange icons, images, text and shapes in Phyllotaxis (leaf arrangement) patterns. pattern in a sunflower, for example.",
 	"menu": {
 		"title": "IconFlower",
 		"items": [
